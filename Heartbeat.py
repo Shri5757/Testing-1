@@ -72,7 +72,7 @@ def log_out():
             elements[i].click()
     time.sleep(2)
     driver.find_element(By.XPATH,"//button [@class='flex items-center px-2 py-0.75 outline-none focus:outline-none ring-0 w-full text-left hover:no-underline cursor-pointer active:font-semibold border-none bg-white hover:bg-gray-50 text-high-emphasis active:bg-sds-primary-10']").click()
-
+    print('Logged Out')
 
 log_out()
 
@@ -82,3 +82,4 @@ def output(result):
 
 final_op = output(result)
 print(final_op)
+
